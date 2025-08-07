@@ -34,3 +34,45 @@ body {
 .header__name {
   font-size: 1.5rem;
 }
+
+/*===============
+ Main Styles
+============== */
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main__form-section {
+  /* outline: 1px solid red; */
+  margin: 3rem 0;
+  width: max(600px, 60vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ingredients-form__input {
+  width: 60%;
+  appearance: none;
+  height: 35px;
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 7px;
+  padding: 0 20px;
+}
+
+.ingredients-form__btn {
+  appearance: none;
+  color: white;
+  background-color: black;
+  width: 25%;
+  border-radius: 6px;
+  border: 1px solid black;
+}
